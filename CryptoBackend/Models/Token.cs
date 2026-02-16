@@ -2,7 +2,7 @@ using System.Linq.Expressions;
 
 namespace BackCryptochanger.Models;
 
-public class Tokens
+public class Token
 {
     public Guid TokenId { get; set; }
     public required string Type { get; set; }
